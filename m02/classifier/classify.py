@@ -5,7 +5,7 @@ Module using sklearn package to classify samples
 
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble.gradient_boosting import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.linear_model import Perceptron
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
